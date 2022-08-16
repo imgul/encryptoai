@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/encryptoai/static/css/main.876313d1.css",
-    "main.js": "/encryptoai/static/js/main.f89e6a7e.js",
+    "main.js": "/encryptoai/static/js/main.ead34075.js",
     "index.html": "/encryptoai/index.html",
     "main.876313d1.css.map": "/encryptoai/static/css/main.876313d1.css.map",
-    "main.f89e6a7e.js.map": "/encryptoai/static/js/main.f89e6a7e.js.map"
+    "main.ead34075.js.map": "/encryptoai/static/js/main.ead34075.js.map"
   },
   "entrypoints": [
     "static/css/main.876313d1.css",
-    "static/js/main.f89e6a7e.js"
+    "static/js/main.ead34075.js"
   ]
 }
