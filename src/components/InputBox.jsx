@@ -216,7 +216,7 @@ const InputBox = () => {
               <i class="fa-solid fa-robot"></i>
               <span className="mx-2">Encrypto AI</span>
             </span>
-            Hides Your Secrets
+            Hides Secrets
           </div>
         </div>
 
