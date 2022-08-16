@@ -9,16 +9,16 @@
 body,
 textarea {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(229, 235, 255);
+    background-color: #e5ebff;
 }
 
 textarea {
-    border: 1px solid rgb(21, 21, 21);
+    border: 1px solid #151515;
     padding: 10px;
     resize: none;
 }
 
 textarea:focus {
     outline: none;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
