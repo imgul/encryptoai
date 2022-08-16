@@ -208,42 +208,56 @@ const InputBox = () => {
 
   return (
     <>
-      <div className="text-center">
-        <h1>Encrypto AI</h1>
+      {/* Header Section */}
+      <div className="container-fluid bg-primary text-white p-1 p-md-2 shadow opacity-75">
+        <div className="container">
+          <span style={{ fontSize: "26px" }}>Encrypto AI </span>
+          Hides Your Secrets
+        </div>
+      </div>
+
+      {/* Tools Section */}
+      <div className="container">
         {/* Encryption Tool */}
-        <div className="input-container">
+        <div className="enc-box mt-4">
+          <label htmlFor="user-enc-text">Text to Encrypt</label>
           <textarea
-            name="user-text"
-            id="user-text"
+            name="user-enc-text"
+            id="user-enc-text"
             cols="40"
-            rows="5"
-            className="w-100"
+            rows="4"
+            className="rounded w-100"
+            placeholder="Write text to encrypt..."
             value={userEncText}
             onChange={updateUserEncText}
           ></textarea>
           <button className="btn btn-primary w-100 my-2" onClick={encryptText}>
-            Encode Text
+            Encrypt Text
           </button>
-          <div id="encoded-text" className="border w-100">
+          <h5>Encrypted Text</h5>
+          <div id="encoded-text" className="border-bottom w-100">
             {encText}
           </div>
         </div>
 
         {/* Decryption Tool */}
-        <div className="input-container mt-3">
+        <div className="dec-box mt-5">
+          <label htmlFor="user-dec-text">Text to Decrypt</label>
           <textarea
-            name="user-text"
-            id="user-text"
+            name="user-dec-text"
+            id="user-dec-text"
             cols="40"
-            rows="5"
-            className="w-100"
+            rows="4"
+            className="rounded w-100"
+            placeholder="Write text to decrypt..."
             value={userDecText}
             onChange={updateUserDecText}
           ></textarea>
           <button className="btn btn-primary w-100 my-2" onClick={decryptText}>
-            Decode Text
+            Decrypt Text
           </button>
-          <div id="encoded-text" className="border w-100">
+          <h5>Decrypted Text</h5>
+          <div id="encoded-text" className="border-bottom w-100">
             {decText}
           </div>
         </div>
