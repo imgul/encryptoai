@@ -1,6 +1,7 @@
 {
   "short_name": "Encrypto AI",
-  "name": "AI Based Text Encryption Tool",
+  "name": "Encrypto AI - Hides Secrets",
+  "description": "Encrypto AI - Hides Your Secrets and Keeps Them Safe with Strong Algorithms",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,7 +19,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "scope": "/encryptoai/",
+  "start_url": "/encryptoai/",
   "display": "standalone",
   "theme_color": "#0d6efd",
   "background_color": "#e5ebff"
