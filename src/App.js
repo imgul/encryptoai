@@ -1,11 +1,11 @@
-import InputBox from "./components/InputBox";
+import GulCipher from "./components/tools/GulCipher";
 import "./App.css";
 
 function App() {
   return (
     <>
       <div className="App">
-        <InputBox />
+        <GulCipher />
       </div>
     </>
   );
